@@ -23,8 +23,8 @@
 			<tbody>
 				<?php
 					$dbhost="localhost";
-					$dbuser="user";
-					$dbpass="user123";
+					$dbuser="root";
+					$dbpass="";
 					$db="gdcairways";
 					$conn=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 					if(!$conn)
