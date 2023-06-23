@@ -132,8 +132,8 @@
 			<tbody>
 				<?php
 					$dbhost="localhost";
-					$dbuser="devang";
-					$dbpass="qwerty";
+					$dbuser="root";
+					$dbpass="";
 					$db="gdcairways";
 					$conn=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 					if(!$conn)
